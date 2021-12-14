@@ -1,0 +1,174 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Grupo04_Tarea1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+		<!-- CSS here -->
+            <link rel="stylesheet" href="../css/bootstrap.min.css">
+            <link rel="stylesheet" href="../css/owl.carousel.min.css">
+            <link rel="stylesheet" href="../css/ticker-style.css">
+            <link rel="stylesheet" href="../css/flaticon.css">
+            <link rel="stylesheet" href="../css/slicknav.css">
+            <link rel="stylesheet" href="../css/animate.min.css">
+            <link rel="stylesheet" href="../css/magnific-popup.css">
+            <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="../css/themify-icons.css">
+            <link rel="stylesheet" href="../css/slick.css">
+            <link rel="stylesheet" href="../css/nice-select.css">
+            <link rel="stylesheet" href="../css/style.css">
+            <link rel="stylesheet" href="../css/main.css">
+            <link rel="stylesheet" href="../css/estilo.css">
+   </head>
+
+   <body>
+       
+<header>
+        <!-- Header Start -->
+       <div class="header-area">
+            <div class="main-header ">
+               <div class="header-bottom header-sticky">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-12 col-lg-12 col-md-12">
+                                <img src="../img/logo.png" width="10%"><span class="rotulado">Curso FRONT-END</span>  
+                            </div>
+                            <div class="col-xl-12 col-lg-12 col-md-12 header-flex">
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-md-block">
+                                    <nav>                  
+                                        <ul id="navigation">   
+                                            <li><a href="../index.html">Introducción</a></li>
+                                            <li><a href="./metodos.html">Métodos</a></li>
+                                            <li><a href="./componentes.html">Componentes</a></li>
+                                            <li><a href="./elementos.html">Elementos</a></li>
+                                            <li><a href="./html_dom.html">HTML</a></li>
+                                            <li><a href="./css.html">CSS</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>             
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-md-none"></div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+       </div>
+        <!-- Header End -->
+    </header>
+
+    <main>
+        <!-- About US Start -->
+        <div class="about-area">
+            <div class="container">
+                    <!-- Hot Aimated News Tittle-->
+                   <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Trending Tittle -->
+                                    <div class="about-right mb-90">
+                                        <div class="trending-tittle">
+                                            <strong>CSS</strong>
+                                            <div class="trending-animated">
+                                                <ul id="js-news" class="js-hidden">      
+                                                    <li class="news-item">JS HTML DOM - BÁSICO</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="about-prea">
+                                            <p class="about-pera1 mb-25 text-justify">El DOM HTML permite que JavaScript cambie el estilo de los elementos HTML .</p>
+                                            <h3>Cambiar el estilo HTML</h3>
+                                            <p class="about-pera1 mb-25 text-justify">Para cambiar el estilo de un elemento HTML, use esta sintaxis:</p>
+                                            <p class="about-pera1 mb-25 text-justify">document.getElementById(id).style.property = new style</p>
+                                            <h3>Ejemplo</h3>
+                                            <div class="jumbotron">
+                                            <p class="about-pera1 mb-25 text-justify">Cambiando el estilo HTML:</p>
+                                            <p class="about-pera1 mb-25 text-justify" id="p1">Hello World!</p>
+                                            <p class="about-pera1 mb-25 text-justify" id="p2">Hello World!</p>
+                                            </div>
+                                            <h3>Usar eventos</h3>
+                                            <p class="about-pera1 mb-25 text-justify">El DOM HTML le permite ejecutar código cuando ocurre un evento.</p>
+                                            <p class="about-pera1 mb-25 text-justify">El navegador genera eventos cuando "suceden cosas" con elementos HTML:</p>
+                                            <ol>
+                                                <li>Se hace clic en un elemento</li>
+                                                <li>La página se ha cargado</li>
+                                                <li>Los campos de entrada se cambian</li>
+                                            </ol>
+                                            <p class="about-pera1 mb-25 text-justify">Este ejemplo cambia el estilo del elemento HTML con id="id1", cuando el usuario hace clic en un botón:</p>
+                                            <h3>Ejemplo</h3>
+                                            <div class="jumbotron">
+                                            <h4 id="id1">My Heading 1</h4>
+                                            <button class="btn" type="button" onclick="document.getElementById('id1').style.color = 'blue'">
+                                            <b>Click Aquí!</b></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                   </div>
+            </div>
+        </div>
+        <!-- About US End -->
+    </main>
+    
+  <footer>
+       <!-- Footer Start-->
+       <!-- footer-bottom aera -->
+       <div class="footer-bottom-area">
+           <div class="container text-center">
+               <div class="footer-border">                    
+                    <div class="align-items-center justify-content-between">
+                        <div class="footer-copy-right">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados</p>
+                        </div>
+                    </div>                                            
+               </div>
+           </div>
+       </div>
+       <!-- Footer End-->
+   </footer>
+   <script type="text/javascript">
+       document.getElementById("p2").style.color = "blue";
+       document.getElementById("p2").style.fontFamily = "Arial";
+       document.getElementById("p2").style.fontSize = "larger";
+   </script>
+	<!-- JS here -->
+    
+        <!-- All JS Custom Plugins Link Here here -->
+        <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+        <!-- Jquery, Popper, Bootstrap -->
+        <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <!-- Jquery Mo.bile Menu -->
+        <script src="../js/jquery.slicknav.min.js"></script>
+
+        <!-- Jquery Slick , Owl-Carousel Plugins -->
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/slick.min.js"></script>
+        <!-- Date Picker -->
+        <script src="../js/gijgo.min.js"></script>
+        <!-- One Page, Animated-HeadLin -->
+        <script src="../js/wow.min.js"></script>
+        <script src="../js/animated.headline.js"></script>
+        <script src="../js/jquery.magnific-popup.js"></script>
+
+        <!-- Breaking New Pluging -->
+        <script src="../js/jquery.ticker.js"></script>
+        <script src="../js/site.js"></script>
+
+        <!-- Scrollup, nice-select, sticky -->
+        <script src="../js/jquery.scrollUp.min.js"></script>
+        <script src="../js/jquery.nice-select.min.js"></script>
+        <script src="../js/jquery.sticky.js"></script>
+                        
+        <!-- Jquery Plugins, main Jquery -->    
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script> 
+    </body>
+</html>
